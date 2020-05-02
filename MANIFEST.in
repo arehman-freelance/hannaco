@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hannaco *.css
+recursive-include hannaco *.csv
+recursive-include hannaco *.html
+recursive-include hannaco *.ico
+recursive-include hannaco *.js
+recursive-include hannaco *.json
+recursive-include hannaco *.md
+recursive-include hannaco *.png
+recursive-include hannaco *.py
+recursive-include hannaco *.svg
+recursive-include hannaco *.txt
+recursive-exclude hannaco *.pyc
